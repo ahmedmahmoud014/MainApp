@@ -452,37 +452,37 @@ class BaseController: UIViewController {
     }
     
     
-    func   tabBarDisActive(type :  Int)   {
-        let colorNormal : UIColor = UIColor.white
-        let colorSelected : UIColor =  UIColorFromRGB(rgbValue: 0x033826)
-        let titleFontAll : UIFont =  UIFont.init(name: "HacenAlgeria", size: 15)!
-        let attributesNormal = [
-            NSAttributedString.Key.foregroundColor : colorNormal,
-            NSAttributedString.Key.font : titleFontAll]
-        
-        let attributesSelected = [
-            NSAttributedString.Key.foregroundColor : colorSelected,
-            NSAttributedString.Key.font : titleFontAll ]
-        
-        if let items = tabBarController?.tabBar.items {
-            for i in  0 ... items.count-1 {
-                let tabBarItem = items[i]
-                
-                if type  == 1{
-                    tabBarItem.setTitleTextAttributes(attributesSelected, for: [])
-                    tabBarController?.tabBar.tintColor = UIColorFromRGB(rgbValue: 0x033826)
-                }
-                else {
-                    tabBarItem.setTitleTextAttributes(attributesNormal, for: [])
-                    tabBarController?.tabBar.tintColor = UIColor.white
-                }
-                
-            }
-            
-        }
-        
-        
-    }
+//    func   tabBarDisActive(type :  Int)   {
+//        let colorNormal : UIColor = UIColor.white
+//        let colorSelected : UIColor =  UIColorFromRGB(rgbValue: 0x033826)
+//        let titleFontAll : UIFont =  UIFont.init(name: "HacenAlgeria", size: 15)!
+//        let attributesNormal = [
+//            NSAttributedString.Key.foregroundColor : colorNormal,
+//            NSAttributedString.Key.font : titleFontAll]
+//        
+//        let attributesSelected = [
+//            NSAttributedString.Key.foregroundColor : colorSelected,
+//            NSAttributedString.Key.font : titleFontAll ]
+//        
+//        if let items = tabBarController?.tabBar.items {
+//            for i in  0 ... items.count-1 {
+//                let tabBarItem = items[i]
+//                
+//                if type  == 1{
+//                    tabBarItem.setTitleTextAttributes(attributesSelected, for: [])
+//                    tabBarController?.tabBar.tintColor = UIColorFromRGB(rgbValue: 0x033826)
+//                }
+//                else {
+//                    tabBarItem.setTitleTextAttributes(attributesNormal, for: [])
+//                    tabBarController?.tabBar.tintColor = UIColor.white
+//                }
+//                
+//            }
+//            
+//        }
+//        
+//        
+//    }
     
     func moveTo(name: String,backTo: String)  {
         addStringToShar(key: "MOVE_TO", value: backTo)

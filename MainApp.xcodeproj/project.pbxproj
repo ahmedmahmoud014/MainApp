@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */; };
+		5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */; };
+		5ABC57D6216F26AA001CCA95 /* HomePageTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */; };
+		5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */; };
+		5ABC57DA216F2726001CCA95 /* HomePageCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */; };
+		5ABC57DC216F2858001CCA95 /* HomeTVItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */; };
 		5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD289202166059F000A7D6F /* AppDelegate.swift */; };
 		5AD289232166059F000A7D6F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD289222166059F000A7D6F /* MainViewController.swift */; };
 		5AD289262166059F000A7D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD289242166059F000A7D6F /* Main.storyboard */; };
@@ -52,6 +57,11 @@
 		02B48CB208CDD49DEC4F3825 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1575A0EE33CD583AC14A9160 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
 		5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceViewControllerView.swift; sourceTree = "<group>"; };
+		5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTVCell.swift; sourceTree = "<group>"; };
+		5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageTVCell.xib; sourceTree = "<group>"; };
+		5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCCell.swift; sourceTree = "<group>"; };
+		5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCCell.xib; sourceTree = "<group>"; };
+		5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVItems.swift; sourceTree = "<group>"; };
 		5AD2891D2166059F000A7D6F /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD289202166059F000A7D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD289222166059F000A7D6F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +122,9 @@
 		5AB552F6216C99E500BCF419 /* xib files */ = {
 			isa = PBXGroup;
 			children = (
+				5AD2896D216635C3000A7D6F /* SideMenuItemsTVCell.xib */,
+				5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */,
+				5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */,
 				5AD2895A21660B69000A7D6F /* PopUpDialogViewController.xib */,
 			);
 			path = "xib files";
@@ -145,6 +158,7 @@
 				5AD289562166060A000A7D6F /* extensions */,
 				5AD28955216605FA000A7D6F /* custom views */,
 				5AD28954216605E8000A7D6F /* models */,
+				5AB552F6216C99E500BCF419 /* xib files */,
 				5AD28953216605DF000A7D6F /* cells */,
 				5AD28952216605CC000A7D6F /* controllers */,
 				5AD28951216605B8000A7D6F /* support files */,
@@ -189,7 +203,6 @@
 			children = (
 				5AD28961216618E2000A7D6F /* side menu */,
 				5AD2895921660B69000A7D6F /* PopUpDialogViewController.swift */,
-				5AB552F6216C99E500BCF419 /* xib files */,
 				5AD289222166059F000A7D6F /* MainViewController.swift */,
 				5AD2895721660972000A7D6F /* BaseControllerView.swift */,
 				5AD8BA8F216BA0E9004D3EB0 /* HomeVC.swift */,
@@ -201,7 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				5AD2896C216635C3000A7D6F /* SideMenuItemsTVCell.swift */,
-				5AD2896D216635C3000A7D6F /* SideMenuItemsTVCell.xib */,
+				5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */,
+				5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -210,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				5AD28970216638EC000A7D6F /* SideMenuItem.swift */,
+				5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -374,11 +389,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABC57DA216F2726001CCA95 /* HomePageCCell.xib in Resources */,
 				5AD2892E216605A2000A7D6F /* LaunchScreen.storyboard in Resources */,
 				5AD2895C21660B69000A7D6F /* PopUpDialogViewController.xib in Resources */,
 				5AD2892B216605A2000A7D6F /* Assets.xcassets in Resources */,
 				5AD2896F216635C3000A7D6F /* SideMenuItemsTVCell.xib in Resources */,
 				5AD289262166059F000A7D6F /* Main.storyboard in Resources */,
+				5ABC57D6216F26AA001CCA95 /* HomePageTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +445,6 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
@@ -438,7 +454,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -458,11 +473,14 @@
 				5AD289232166059F000A7D6F /* MainViewController.swift in Sources */,
 				5AD2895821660972000A7D6F /* BaseControllerView.swift in Sources */,
 				5AD2897421663FE1000A7D6F /* SideMenuItem1VC.swift in Sources */,
+				5ABC57DC216F2858001CCA95 /* HomeTVItems.swift in Sources */,
 				5AD8BA90216BA0E9004D3EB0 /* HomeVC.swift in Sources */,
 				5AD2896B2166353B000A7D6F /* SideMenuItemsVC.swift in Sources */,
 				5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */,
+				5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */,
 				5AD2896921662CB2000A7D6F /* SWRevealViewController.m in Sources */,
 				5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */,
+				5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */,
 				5AD2895E21660D3B000A7D6F /* ShadowExtention.swift in Sources */,
 				5AD289292166059F000A7D6F /* MainApp.xcdatamodeld in Sources */,
 				5AD28971216638EC000A7D6F /* SideMenuItem.swift in Sources */,
@@ -646,12 +664,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E78UK9EY2N;
 				INFOPLIST_FILE = MainApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/my apps/MainApp/MainApp/controllers/side menu/MainApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -664,11 +685,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E78UK9EY2N;
 				INFOPLIST_FILE = MainApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/my apps/MainApp/MainApp/controllers/side menu/MainApp-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -680,7 +704,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MainAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -696,7 +724,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MainAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -711,7 +743,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MainAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -726,7 +762,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MainAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = main.app.com.MainAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

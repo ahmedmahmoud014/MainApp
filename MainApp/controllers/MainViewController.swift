@@ -11,15 +11,16 @@ import UIKit
 class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDelegate{
     
     @IBOutlet weak var tabBar: UITabBar!
-    @IBOutlet weak var scrollViewHeight: NSLayoutConstraint!
+    //    @IBOutlet weak var scrollViewHeight: NSLayoutConstraint!
     @IBOutlet weak var tabBarHeight: NSLayoutConstraint!
+    
+    
     func moveToView(vcName: String) {
-        print("movvvvvvvvvvv \( vcName)")
-         addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: vcName) )
+        addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: vcName) )
         self.revealViewController().revealToggle(animated: true)
     }
     
-
+    
     
     @IBOutlet weak var spaceBetweenTabAndConTainer: NSLayoutConstraint!
     @IBOutlet weak var containerView: UIView!
@@ -35,19 +36,23 @@ class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDe
         SideMenuItemsVC.replaceVCView =  self
         
         // assign intial  value to  container view  yb
-    addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
+        addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
         
+        //
+        //        let pop =  PopUpDialogViewController()
+        //        pop.message  =  "tttttttttest"
+        //        present(pop, animated: false , completion: nil)
         
         // tab bar config
         checkDeviceType ()
         
         
-
         
-      }
-
+        
+    }
     
-
+    
+    
     // generate view controller
     func generateViewConTroller(controllerName :  String) -> UIViewController{
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
@@ -67,19 +72,19 @@ class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDe
         viewController.view.backgroundColor =  UIColor.clear
         viewController.view.frame = CGRect(x: 0, y: 0, width:containerView.bounds.width, height:  containerView.bounds.height) //Here
         containerView.addSubview(viewController.view)
-        self.addChild(viewController)
-        viewController.didMove(toParent: self.parent)
+        self.addChildViewController(viewController)
+        viewController.didMove(toParentViewController: self.parent)
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-    //revealViewController()
+        //revealViewController()
     }
-
+    
     @IBAction func showMenu(_ sender: Any) {
         if self.revealViewController() != nil {
-//            showMenuBtn.target = self.revealViewController()
-//            showMenuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
+            //            showMenuBtn.target = self.revealViewController()
+            //            showMenuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
@@ -87,7 +92,7 @@ class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDe
     
     
     func checkDeviceType () {
-    
+        
         tabBar.delegate =  self
         if UIDevice().userInterfaceIdiom == .phone {
             
@@ -95,47 +100,40 @@ class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDe
             let mobileHeight =  UIScreen.main.nativeBounds.height;
             if  mobileHeight >= 2436
             {
-             //tabBarHeight.constant =  100
+                //tabBarHeight.constant =  100
             }
             else if  mobileHeight ==  1792.0 {
-               spaceBetweenTabAndConTainer.constant =  31
+                spaceBetweenTabAndConTainer.constant =  31
                 tabBarHeight.constant =  80
-
+                
             }
             else{
-            spaceBetweenTabAndConTainer.constant  =  0
+                spaceBetweenTabAndConTainer.constant  =  0
                 print("tttttttt ٠")
                 tabBarHeight.constant =  60
-
-
+                
+                
             }
-//            switch  {
-//            case 2436:
-//                print("iPhone X ")
-//
-//                break
-//            default:
-//                break
-//            }
         }
     }
     
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        if(item.tag == 1) {
-            print("ttttttttttttt 1")
+        if(item.tag == 0) {
             addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
         }
-        else if(item.tag == 2) {
+        else if(item.tag == 1) {
             //your code for tab item 2
-            print("ttttttttttttt 2")
             addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "SideMenuItem1VC") )
         }
         else {
-            print("ttttttttttttt 3")
             addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
-
+            
         }
     }
     
 }
+
+
+
+
 
