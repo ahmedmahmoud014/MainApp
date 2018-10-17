@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A8A0E1B2175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A0E192175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift */; };
+		5A8A0E1C2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A0E1A2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib */; };
+		5A8A0E1E2175BB1000D4A20E /* ExpandAndCollapsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */; };
+		5A8A0E202175E60300D4A20E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A0E1F2175E60300D4A20E /* LoginVC.swift */; };
+		5A8A0E222175EB8900D4A20E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A0E212175EB8900D4A20E /* FBSDKCoreKit.framework */; };
+		5A8A0E242175EB8900D4A20E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A0E232175EB8900D4A20E /* FBSDKLoginKit.framework */; };
+		5A8A0E262175EB8900D4A20E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A0E252175EB8900D4A20E /* FBSDKShareKit.framework */; };
+		5A8C53A32175B84100F5C5F8 /* ExpandAndCollapsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C53A22175B84100F5C5F8 /* ExpandAndCollapsListVC.swift */; };
 		5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */; };
+		5ABA47962177654D002DB7B9 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA47952177654D002DB7B9 /* AppConstant.swift */; };
 		5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */; };
 		5ABC57D6216F26AA001CCA95 /* HomePageTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */; };
 		5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */; };
 		5ABC57DA216F2726001CCA95 /* HomePageCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */; };
 		5ABC57DC216F2858001CCA95 /* HomeTVItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */; };
+		5AC15E97217358EB00547CF1 /* UpperCItemTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC15E95217358EB00547CF1 /* UpperCItemTVCell.swift */; };
+		5AC15E98217358EB00547CF1 /* UpperCItemTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC15E96217358EB00547CF1 /* UpperCItemTVCell.xib */; };
+		5AC15E9B21735C6500547CF1 /* DawnCTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC15E9921735C6400547CF1 /* DawnCTVCell.swift */; };
+		5AC15E9C21735C6500547CF1 /* DawnCTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC15E9A21735C6400547CF1 /* DawnCTVCell.xib */; };
+		5AC15E9E21735DB400547CF1 /* ItemsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC15E9D21735DB400547CF1 /* ItemsDetailsVC.swift */; };
 		5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD289202166059F000A7D6F /* AppDelegate.swift */; };
 		5AD289232166059F000A7D6F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD289222166059F000A7D6F /* MainViewController.swift */; };
 		5AD289262166059F000A7D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD289242166059F000A7D6F /* Main.storyboard */; };
@@ -56,12 +70,26 @@
 /* Begin PBXFileReference section */
 		02B48CB208CDD49DEC4F3825 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1575A0EE33CD583AC14A9160 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A8A0E192175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsTVCell.swift; sourceTree = "<group>"; };
+		5A8A0E1A2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandAndCollapsTVCell.xib; sourceTree = "<group>"; };
+		5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsStruct.swift; sourceTree = "<group>"; };
+		5A8A0E1F2175E60300D4A20E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5A8A0E212175EB8900D4A20E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A0E232175EB8900D4A20E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A0E252175EB8900D4A20E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8C53A22175B84100F5C5F8 /* ExpandAndCollapsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsListVC.swift; sourceTree = "<group>"; };
 		5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceViewControllerView.swift; sourceTree = "<group>"; };
+		5ABA47952177654D002DB7B9 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTVCell.swift; sourceTree = "<group>"; };
 		5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageTVCell.xib; sourceTree = "<group>"; };
 		5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCCell.swift; sourceTree = "<group>"; };
 		5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCCell.xib; sourceTree = "<group>"; };
 		5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVItems.swift; sourceTree = "<group>"; };
+		5AC15E95217358EB00547CF1 /* UpperCItemTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperCItemTVCell.swift; sourceTree = "<group>"; };
+		5AC15E96217358EB00547CF1 /* UpperCItemTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpperCItemTVCell.xib; sourceTree = "<group>"; };
+		5AC15E9921735C6400547CF1 /* DawnCTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnCTVCell.swift; sourceTree = "<group>"; };
+		5AC15E9A21735C6400547CF1 /* DawnCTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DawnCTVCell.xib; sourceTree = "<group>"; };
+		5AC15E9D21735DB400547CF1 /* ItemsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDetailsVC.swift; sourceTree = "<group>"; };
 		5AD2891D2166059F000A7D6F /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD289202166059F000A7D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD289222166059F000A7D6F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8A0E222175EB8900D4A20E /* FBSDKCoreKit.framework in Frameworks */,
+				5A8A0E242175EB8900D4A20E /* FBSDKLoginKit.framework in Frameworks */,
+				5A8A0E262175EB8900D4A20E /* FBSDKShareKit.framework in Frameworks */,
 				7E54315C6D9F14E4AEE359CD /* Pods_MainApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +157,8 @@
 				5ABC57D4216F26AA001CCA95 /* HomePageTVCell.xib */,
 				5ABC57D8216F2726001CCA95 /* HomePageCCell.xib */,
 				5AD2895A21660B69000A7D6F /* PopUpDialogViewController.xib */,
+				5AC15E96217358EB00547CF1 /* UpperCItemTVCell.xib */,
+				5A8A0E1A2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib */,
 			);
 			path = "xib files";
 			sourceTree = "<group>";
@@ -194,6 +227,7 @@
 			children = (
 				5AD289202166059F000A7D6F /* AppDelegate.swift */,
 				5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */,
+				5ABA47952177654D002DB7B9 /* AppConstant.swift */,
 			);
 			path = "support files";
 			sourceTree = "<group>";
@@ -206,6 +240,9 @@
 				5AD289222166059F000A7D6F /* MainViewController.swift */,
 				5AD2895721660972000A7D6F /* BaseControllerView.swift */,
 				5AD8BA8F216BA0E9004D3EB0 /* HomeVC.swift */,
+				5AC15E9D21735DB400547CF1 /* ItemsDetailsVC.swift */,
+				5A8C53A22175B84100F5C5F8 /* ExpandAndCollapsListVC.swift */,
+				5A8A0E1F2175E60300D4A20E /* LoginVC.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -213,9 +250,13 @@
 		5AD28953216605DF000A7D6F /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				5AC15E9A21735C6400547CF1 /* DawnCTVCell.xib */,
 				5AD2896C216635C3000A7D6F /* SideMenuItemsTVCell.swift */,
 				5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */,
 				5ABC57D7216F2726001CCA95 /* HomePageCCell.swift */,
+				5AC15E95217358EB00547CF1 /* UpperCItemTVCell.swift */,
+				5AC15E9921735C6400547CF1 /* DawnCTVCell.swift */,
+				5A8A0E192175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -225,6 +266,7 @@
 			children = (
 				5AD28970216638EC000A7D6F /* SideMenuItem.swift */,
 				5ABC57DB216F2858001CCA95 /* HomeTVItems.swift */,
+				5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -277,6 +319,9 @@
 		CD472A3EF4F654A38B5D19D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A8A0E212175EB8900D4A20E /* FBSDKCoreKit.framework */,
+				5A8A0E232175EB8900D4A20E /* FBSDKLoginKit.framework */,
+				5A8A0E252175EB8900D4A20E /* FBSDKShareKit.framework */,
 				DEA8963C6E515669F47F1101 /* Pods_MainApp.framework */,
 			);
 			name = Frameworks;
@@ -391,9 +436,12 @@
 			files = (
 				5ABC57DA216F2726001CCA95 /* HomePageCCell.xib in Resources */,
 				5AD2892E216605A2000A7D6F /* LaunchScreen.storyboard in Resources */,
+				5A8A0E1C2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib in Resources */,
 				5AD2895C21660B69000A7D6F /* PopUpDialogViewController.xib in Resources */,
+				5AC15E9C21735C6500547CF1 /* DawnCTVCell.xib in Resources */,
 				5AD2892B216605A2000A7D6F /* Assets.xcassets in Resources */,
 				5AD2896F216635C3000A7D6F /* SideMenuItemsTVCell.xib in Resources */,
+				5AC15E98217358EB00547CF1 /* UpperCItemTVCell.xib in Resources */,
 				5AD289262166059F000A7D6F /* Main.storyboard in Resources */,
 				5ABC57D6216F26AA001CCA95 /* HomePageTVCell.xib in Resources */,
 			);
@@ -442,6 +490,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MainApp/Pods-MainApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -451,6 +505,12 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -471,19 +531,27 @@
 			files = (
 				5AD2895B21660B69000A7D6F /* PopUpDialogViewController.swift in Sources */,
 				5AD289232166059F000A7D6F /* MainViewController.swift in Sources */,
+				5A8A0E202175E60300D4A20E /* LoginVC.swift in Sources */,
 				5AD2895821660972000A7D6F /* BaseControllerView.swift in Sources */,
+				5A8A0E1E2175BB1000D4A20E /* ExpandAndCollapsStruct.swift in Sources */,
 				5AD2897421663FE1000A7D6F /* SideMenuItem1VC.swift in Sources */,
 				5ABC57DC216F2858001CCA95 /* HomeTVItems.swift in Sources */,
+				5AC15E97217358EB00547CF1 /* UpperCItemTVCell.swift in Sources */,
 				5AD8BA90216BA0E9004D3EB0 /* HomeVC.swift in Sources */,
 				5AD2896B2166353B000A7D6F /* SideMenuItemsVC.swift in Sources */,
+				5AC15E9E21735DB400547CF1 /* ItemsDetailsVC.swift in Sources */,
 				5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */,
 				5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */,
+				5AC15E9B21735C6500547CF1 /* DawnCTVCell.swift in Sources */,
 				5AD2896921662CB2000A7D6F /* SWRevealViewController.m in Sources */,
 				5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */,
+				5ABA47962177654D002DB7B9 /* AppConstant.swift in Sources */,
 				5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */,
 				5AD2895E21660D3B000A7D6F /* ShadowExtention.swift in Sources */,
 				5AD289292166059F000A7D6F /* MainApp.xcdatamodeld in Sources */,
 				5AD28971216638EC000A7D6F /* SideMenuItem.swift in Sources */,
+				5A8A0E1B2175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift in Sources */,
+				5A8C53A32175B84100F5C5F8 /* ExpandAndCollapsListVC.swift in Sources */,
 				5AD2896E216635C3000A7D6F /* SideMenuItemsTVCell.swift in Sources */,
 				5AD2896021660D81000A7D6F /* StringValidation.swift in Sources */,
 			);

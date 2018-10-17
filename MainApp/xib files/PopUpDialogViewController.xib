@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +14,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpDialogViewController" customModule="Mofa" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpDialogViewController" customModule="MainApp" customModuleProvider="target">
             <connections>
                 <outlet property="backBtn" destination="jTG-XU-OrJ" id="vpu-Uq-oz6"/>
                 <outlet property="dialogView" destination="Hxw-n9-aWP" id="NCw-a0-Zhu"/>
@@ -72,7 +71,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.54791845034246578" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.87058823529999996" green="0.25882352939999997" blue="0.3803921569" alpha="0.1720355308219178" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="Hxw-n9-aWP" firstAttribute="leading" secondItem="ZS0-c3-BpQ" secondAttribute="leading" constant="18" id="3b6-Nq-vfR"/>
                                 <constraint firstItem="Hxw-n9-aWP" firstAttribute="centerX" secondItem="ZS0-c3-BpQ" secondAttribute="centerX" id="I99-xD-2ZV"/>

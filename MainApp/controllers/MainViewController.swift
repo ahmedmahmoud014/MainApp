@@ -36,14 +36,9 @@ class MainViewController: UIViewController ,ReplaceViewControllerView,UITabBarDe
         SideMenuItemsVC.replaceVCView =  self
         
         // assign intial  value to  container view  yb
-        addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
+addViewControllerToContainer(asChildViewController:generateViewConTroller(controllerName: "HomeVC") )
         
-        //
-        //        let pop =  PopUpDialogViewController()
-        //        pop.message  =  "tttttttttest"
-        //        present(pop, animated: false , completion: nil)
-        
-        // tab bar config
+// for tab style for iponex
         checkDeviceType ()
         
         

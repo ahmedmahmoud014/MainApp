@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DawnCTVCell" rowHeight="389" id="KGk-i7-Jjw" customClass="DawnCTVCell" customModule="MainApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="389"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="388.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qLi-fW-kaD">
+                        <rect key="frame" x="0.0" y="0.0" width="328" height="388.5"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1H-lc-sIk">
+                                <rect key="frame" x="0.0" y="0.0" width="328" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="hr6-Fy-iNv"/>
+                                    <tabBarItem title="Item" id="ocy-Ea-NtO"/>
+                                    <tabBarItem systemItem="more" id="I53-aG-4iT"/>
+                                </items>
+                            </tabBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OY6-II-yoz">
+                                <rect key="frame" x="0.0" y="49" width="328" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jEz-Uo-vqj">
+                                <rect key="frame" x="0.0" y="54" width="328" height="334.5"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <viewLayoutGuide key="safeArea" id="JeW-NW-2ti"/>
+                            </containerView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jEz-Uo-vqj" secondAttribute="trailing" id="BBn-Q3-yNz"/>
+                            <constraint firstItem="f1H-lc-sIk" firstAttribute="top" secondItem="qLi-fW-kaD" secondAttribute="top" id="E4L-mH-wxo"/>
+                            <constraint firstAttribute="trailing" secondItem="f1H-lc-sIk" secondAttribute="trailing" id="Xhb-G4-5g3"/>
+                            <constraint firstItem="f1H-lc-sIk" firstAttribute="leading" secondItem="qLi-fW-kaD" secondAttribute="leading" id="ez4-Rx-iJf"/>
+                            <constraint firstItem="jEz-Uo-vqj" firstAttribute="leading" secondItem="qLi-fW-kaD" secondAttribute="leading" id="plO-Jf-CYE"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qLi-fW-kaD" secondAttribute="bottom" id="5pA-Iv-WoE"/>
+                    <constraint firstItem="qLi-fW-kaD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AIy-gA-xcU"/>
+                    <constraint firstAttribute="trailing" secondItem="qLi-fW-kaD" secondAttribute="trailing" id="MDn-Ul-WwH"/>
+                    <constraint firstItem="qLi-fW-kaD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bAR-Ug-zdE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-46.399999999999999" y="133.5832083958021"/>
+        </tableViewCell>
+    </objects>
+</document>

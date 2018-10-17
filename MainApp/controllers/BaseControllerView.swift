@@ -419,24 +419,9 @@ class BaseController: UIViewController {
         let  popUp =  PopUpDialogViewController()
         popUp.message  =  message
         popUp.height = 130
-        popUp.modalPresentationStyle =  .custom
+        popUp.modalPresentationStyle =  .overFullScreen
         present(popUp, animated: true, completion: nil)
         
-        
-        //        let alertController = UIAlertController(title: title, message:
-        //           message, preferredStyle: UIAlertControllerStyle.alert)
-        //        let cancelAction = UIAlertAction(title: "إلغاء", style: UIAlertActionStyle.cancel) {
-        //            UIAlertAction in
-        //            NSLog("Cancel Pressed")
-        //            self.dismiss(animated: true, completion: nil)
-        //
-        //        }
-        //
-        //
-        //        cancelAction.setValue(UIColorFromRGB(rgbValue: 0x033826), forKey: "titleTextColor")
-        //
-        //        alertController.addAction(cancelAction)
-        //        self.present(alertController, animated: true, completion: nil)
     }
     
     

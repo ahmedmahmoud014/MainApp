@@ -23,6 +23,7 @@ class PopUpDialogViewController: UIViewController {
         // Do any additional setup after loading the view.
         backBtn.addShadow(roundBorder: 20, opacity: 0.2)
         dialogView.addShadow(roundBorder: 20, opacity:0.2)
+        message =  "testererer "
         showMessage.text =  message
         if  message.count <= 30{
         dialogViewHeight.constant =  110
