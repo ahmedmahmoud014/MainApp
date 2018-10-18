@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class SideMenuItemsTVCell: UITableViewCell {
 
     @IBOutlet weak var itemName: UILabel!

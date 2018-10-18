@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A09D9C4217896A000E84FA6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A09D9C2217896A000E84FA6 /* SWRevealViewController.m */; };
 		5A8A0E1B2175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A0E192175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift */; };
 		5A8A0E1C2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A0E1A2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib */; };
 		5A8A0E1E2175BB1000D4A20E /* ExpandAndCollapsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */; };
@@ -40,7 +41,6 @@
 		5AD2895C21660B69000A7D6F /* PopUpDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD2895A21660B69000A7D6F /* PopUpDialogViewController.xib */; };
 		5AD2895E21660D3B000A7D6F /* ShadowExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2895D21660D3B000A7D6F /* ShadowExtention.swift */; };
 		5AD2896021660D81000A7D6F /* StringValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2895F21660D81000A7D6F /* StringValidation.swift */; };
-		5AD2896921662CB2000A7D6F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2896821662CB2000A7D6F /* SWRevealViewController.m */; };
 		5AD2896B2166353B000A7D6F /* SideMenuItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2896A2166353B000A7D6F /* SideMenuItemsVC.swift */; };
 		5AD2896E216635C3000A7D6F /* SideMenuItemsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD2896C216635C3000A7D6F /* SideMenuItemsTVCell.swift */; };
 		5AD2896F216635C3000A7D6F /* SideMenuItemsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD2896D216635C3000A7D6F /* SideMenuItemsTVCell.xib */; };
@@ -70,6 +70,8 @@
 /* Begin PBXFileReference section */
 		02B48CB208CDD49DEC4F3825 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1575A0EE33CD583AC14A9160 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A09D9C2217896A000E84FA6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../../Users/macbokkpro/Downloads/SwiftRevealViewController-master/SwiftRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		5A09D9C3217896A000E84FA6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../../Users/macbokkpro/Downloads/SwiftRevealViewController-master/SwiftRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
 		5A8A0E192175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsTVCell.swift; sourceTree = "<group>"; };
 		5A8A0E1A2175B9FF00D4A20E /* ExpandAndCollapsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandAndCollapsTVCell.xib; sourceTree = "<group>"; };
 		5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsStruct.swift; sourceTree = "<group>"; };
@@ -110,8 +112,6 @@
 		5AD2895D21660D3B000A7D6F /* ShadowExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowExtention.swift; sourceTree = "<group>"; };
 		5AD2895F21660D81000A7D6F /* StringValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringValidation.swift; sourceTree = "<group>"; };
 		5AD2896621662CB2000A7D6F /* SwiftRevealViewController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftRevealViewController-Bridging-Header.h"; sourceTree = "<group>"; };
-		5AD2896721662CB2000A7D6F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../Users/macbokkpro/Downloads/SwiftRevealViewController-master/SwiftRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		5AD2896821662CB2000A7D6F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Users/macbokkpro/Downloads/SwiftRevealViewController-master/SwiftRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		5AD2896A2166353B000A7D6F /* SideMenuItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemsVC.swift; sourceTree = "<group>"; };
 		5AD2896C216635C3000A7D6F /* SideMenuItemsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemsTVCell.swift; sourceTree = "<group>"; };
 		5AD2896D216635C3000A7D6F /* SideMenuItemsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuItemsTVCell.xib; sourceTree = "<group>"; };
@@ -292,8 +292,8 @@
 			children = (
 				5AD2897221663FB5000A7D6F /* side menu items vc */,
 				5AD2896621662CB2000A7D6F /* SwiftRevealViewController-Bridging-Header.h */,
-				5AD2896721662CB2000A7D6F /* SWRevealViewController.h */,
-				5AD2896821662CB2000A7D6F /* SWRevealViewController.m */,
+				5A09D9C3217896A000E84FA6 /* SWRevealViewController.h */,
+				5A09D9C2217896A000E84FA6 /* SWRevealViewController.m */,
 				5AD2896A2166353B000A7D6F /* SideMenuItemsVC.swift */,
 			);
 			path = "side menu";
@@ -541,9 +541,9 @@
 				5AD2896B2166353B000A7D6F /* SideMenuItemsVC.swift in Sources */,
 				5AC15E9E21735DB400547CF1 /* ItemsDetailsVC.swift in Sources */,
 				5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */,
+				5A09D9C4217896A000E84FA6 /* SWRevealViewController.m in Sources */,
 				5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */,
 				5AC15E9B21735C6500547CF1 /* DawnCTVCell.swift in Sources */,
-				5AD2896921662CB2000A7D6F /* SWRevealViewController.m in Sources */,
 				5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */,
 				5ABA47962177654D002DB7B9 /* AppConstant.swift in Sources */,
 				5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */,
