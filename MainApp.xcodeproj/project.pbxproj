@@ -16,6 +16,12 @@
 		5A8A0E242175EB8900D4A20E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A0E232175EB8900D4A20E /* FBSDKLoginKit.framework */; };
 		5A8A0E262175EB8900D4A20E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A0E252175EB8900D4A20E /* FBSDKShareKit.framework */; };
 		5A8C53A32175B84100F5C5F8 /* ExpandAndCollapsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C53A22175B84100F5C5F8 /* ExpandAndCollapsListVC.swift */; };
+		5AAE6F92219D60A300618635 /* MainTableViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE6F8E219D60A300618635 /* MainTableViewScreen.swift */; };
+		5AAE6F93219D60A300618635 /* TableViewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE6F8F219D60A300618635 /* TableViewItems.swift */; };
+		5AAE6F94219D60A300618635 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AAE6F90219D60A300618635 /* MainTableViewCell.xib */; };
+		5AAE6F95219D60A300618635 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE6F91219D60A300618635 /* MainTableViewCell.swift */; };
+		5AAE6F97219D60B000618635 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE6F96219D60B000618635 /* TextViewViewController.swift */; };
+		5AAE6F9A219D620500618635 /* CallAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE6F99219D620500618635 /* CallAPI.swift */; };
 		5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */; };
 		5ABA47962177654D002DB7B9 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA47952177654D002DB7B9 /* AppConstant.swift */; };
 		5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */; };
@@ -80,6 +86,12 @@
 		5A8A0E232175EB8900D4A20E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8A0E252175EB8900D4A20E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8C53A22175B84100F5C5F8 /* ExpandAndCollapsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndCollapsListVC.swift; sourceTree = "<group>"; };
+		5AAE6F8E219D60A300618635 /* MainTableViewScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewScreen.swift; sourceTree = "<group>"; };
+		5AAE6F8F219D60A300618635 /* TableViewItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewItems.swift; sourceTree = "<group>"; };
+		5AAE6F90219D60A300618635 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		5AAE6F91219D60A300618635 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		5AAE6F96219D60B000618635 /* TextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
+		5AAE6F99219D620500618635 /* CallAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAPI.swift; sourceTree = "<group>"; };
 		5AB552F4216C8F0F00BCF419 /* ReplaceViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceViewControllerView.swift; sourceTree = "<group>"; };
 		5ABA47952177654D002DB7B9 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		5ABC57D3216F26AA001CCA95 /* HomePageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTVCell.swift; sourceTree = "<group>"; };
@@ -150,6 +162,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AAE6F8A219D5BF400618635 /* rx example */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE6F8D219D60A300618635 /* table view with regx */,
+			);
+			path = "rx example";
+			sourceTree = "<group>";
+		};
+		5AAE6F8D219D60A300618635 /* table view with regx */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE6F96219D60B000618635 /* TextViewViewController.swift */,
+				5AAE6F8E219D60A300618635 /* MainTableViewScreen.swift */,
+				5AAE6F8F219D60A300618635 /* TableViewItems.swift */,
+				5AAE6F90219D60A300618635 /* MainTableViewCell.xib */,
+				5AAE6F91219D60A300618635 /* MainTableViewCell.swift */,
+			);
+			path = "table view with regx";
+			sourceTree = "<group>";
+		};
+		5AAE6F98219D618700618635 /* call api  */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE6F99219D620500618635 /* CallAPI.swift */,
+			);
+			path = "call api ";
+			sourceTree = "<group>";
+		};
 		5AB552F6216C99E500BCF419 /* xib files */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,8 +228,9 @@
 		5AD2891F2166059F000A7D6F /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
+				5AAE6F98219D618700618635 /* call api  */,
+				5AAE6F8A219D5BF400618635 /* rx example */,
 				5AD289562166060A000A7D6F /* extensions */,
-				5AD28955216605FA000A7D6F /* custom views */,
 				5AD28954216605E8000A7D6F /* models */,
 				5AB552F6216C99E500BCF419 /* xib files */,
 				5AD28953216605DF000A7D6F /* cells */,
@@ -269,13 +310,6 @@
 				5A8A0E1D2175BB1000D4A20E /* ExpandAndCollapsStruct.swift */,
 			);
 			path = models;
-			sourceTree = "<group>";
-		};
-		5AD28955216605FA000A7D6F /* custom views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "custom views";
 			sourceTree = "<group>";
 		};
 		5AD289562166060A000A7D6F /* extensions */ = {
@@ -440,6 +474,7 @@
 				5AD2895C21660B69000A7D6F /* PopUpDialogViewController.xib in Resources */,
 				5AC15E9C21735C6500547CF1 /* DawnCTVCell.xib in Resources */,
 				5AD2892B216605A2000A7D6F /* Assets.xcassets in Resources */,
+				5AAE6F94219D60A300618635 /* MainTableViewCell.xib in Resources */,
 				5AD2896F216635C3000A7D6F /* SideMenuItemsTVCell.xib in Resources */,
 				5AC15E98217358EB00547CF1 /* UpperCItemTVCell.xib in Resources */,
 				5AD289262166059F000A7D6F /* Main.storyboard in Resources */,
@@ -491,6 +526,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MainApp/Pods-MainApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
@@ -500,12 +536,14 @@
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
@@ -515,6 +553,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,20 +576,25 @@
 				5AD2897421663FE1000A7D6F /* SideMenuItem1VC.swift in Sources */,
 				5ABC57DC216F2858001CCA95 /* HomeTVItems.swift in Sources */,
 				5AC15E97217358EB00547CF1 /* UpperCItemTVCell.swift in Sources */,
+				5AAE6F97219D60B000618635 /* TextViewViewController.swift in Sources */,
 				5AD8BA90216BA0E9004D3EB0 /* HomeVC.swift in Sources */,
 				5AD2896B2166353B000A7D6F /* SideMenuItemsVC.swift in Sources */,
+				5AAE6F95219D60A300618635 /* MainTableViewCell.swift in Sources */,
 				5AC15E9E21735DB400547CF1 /* ItemsDetailsVC.swift in Sources */,
+				5AAE6F93219D60A300618635 /* TableViewItems.swift in Sources */,
 				5AB552F5216C8F0F00BCF419 /* ReplaceViewControllerView.swift in Sources */,
 				5A02EF762178991A0044D2BB /* SWRevealViewController.m in Sources */,
 				5ABC57D9216F2726001CCA95 /* HomePageCCell.swift in Sources */,
 				5AC15E9B21735C6500547CF1 /* DawnCTVCell.swift in Sources */,
 				5AD289212166059F000A7D6F /* AppDelegate.swift in Sources */,
+				5AAE6F92219D60A300618635 /* MainTableViewScreen.swift in Sources */,
 				5ABA47962177654D002DB7B9 /* AppConstant.swift in Sources */,
 				5ABC57D5216F26AA001CCA95 /* HomePageTVCell.swift in Sources */,
 				5AD2895E21660D3B000A7D6F /* ShadowExtention.swift in Sources */,
 				5AD289292166059F000A7D6F /* MainApp.xcdatamodeld in Sources */,
 				5AD28971216638EC000A7D6F /* SideMenuItem.swift in Sources */,
 				5A8A0E1B2175B9FF00D4A20E /* ExpandAndCollapsTVCell.swift in Sources */,
+				5AAE6F9A219D620500618635 /* CallAPI.swift in Sources */,
 				5A8C53A32175B84100F5C5F8 /* ExpandAndCollapsListVC.swift in Sources */,
 				5AD2896E216635C3000A7D6F /* SideMenuItemsTVCell.swift in Sources */,
 				5AD2896021660D81000A7D6F /* StringValidation.swift in Sources */,

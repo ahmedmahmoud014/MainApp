@@ -6,6 +6,7 @@ PODS:
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
+  - Differentiator (3.1.0)
   - FacebookCore (0.4.0):
     - Bolts (~> 1.9)
     - FBSDKCoreKit (~> 4.36)
@@ -25,6 +26,10 @@ PODS:
   - ObjectMapper (3.3.0)
   - RxCocoa (4.3.0):
     - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxSwift (4.3.0)
 
 DEPENDENCIES:
@@ -38,12 +43,14 @@ DEPENDENCIES:
   - JGProgressHUD
   - ObjectMapper (~> 3.1)
   - RxCocoa (~> 4.0)
+  - RxDataSources (~> 3.0)
   - RxSwift (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Bolts
+    - Differentiator
     - FacebookCore
     - FacebookLogin
     - FBSDKCoreKit
@@ -53,11 +60,13 @@ SPEC REPOS:
     - JGProgressHUD
     - ObjectMapper
     - RxCocoa
+    - RxDataSources
     - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   FacebookCore: 770e57cfe250a4de4458b682191c0ff062dee247
   FacebookLogin: eb0f2251aca835a94d70a5f7e580edc46d1e1603
   FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
@@ -67,8 +76,9 @@ SPEC CHECKSUMS:
   JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   RxCocoa: 71b9cce833fbcb89a8eec11816dd225830c2bd3c
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
 
-PODFILE CHECKSUM: c1f5d84a36b072866e9ab7c4c895b8e5fadeab65
+PODFILE CHECKSUM: a543f74d55db08fa51fd85f4cd9b469ab2a86301
 
 COCOAPODS: 1.5.3
